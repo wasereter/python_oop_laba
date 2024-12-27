@@ -21,7 +21,7 @@ class Employee:
         return self.__salary
         
     def getName(self):
-        return self.__name.upper
+        return self.__name
     
     def getage(self):
         return self.__age
@@ -29,9 +29,9 @@ class Employee:
 
 
 employee = Employee('','','')
-employee.setName  = 'Max'
-employee.setSalary = 45632
-employee.setage = 37
+employee.setName('Max')
+employee.setSalary(32422)
+employee.setage(26)
 print(employee.getSalary())
 print(employee.getage())
 print(employee.getName())

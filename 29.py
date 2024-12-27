@@ -8,4 +8,4 @@ class Employee(User):
     pass
 employee = Employee()
 employee.setName('Max')
-print(employee.getName)
+print(employee.getName())

@@ -22,3 +22,4 @@ class Designer(Programmer):
     def setAge(self, age):
         self.age = age
     def getAge(self):
+        return self.age

@@ -21,7 +21,7 @@ class Employee:
             print("age is incorrected")
 
     def getSalary(self):
-        return self.__salary + '$'
+        return str(self.__salary) + '$'
         
     def getName(self):
         return self.__name
@@ -29,9 +29,9 @@ class Employee:
     def getage(self):
         return self.__age
 employee = Employee('','','')
-employee.setName  = 'Max'
-employee.setSalary = 45632
-employee.setage = 37
+employee.setName('Max')
+employee.setSalary(45632)
+employee.setage(37)
 print(employee.getSalary())
 print(employee.getage())
 print(employee.getName())
